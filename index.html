@@ -16,36 +16,43 @@
     header {
       background: #111827;
       color: white;
-      padding: 40px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
 
-    header img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 15px;
-      border: 4px solid white;
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #d1d5db;
     }
 
     section {
-      max-width: 800px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
     }
 
     h2 {
       border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
     }
 
     .project {
       background: white;
-      padding: 15px;
-      margin-top: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+
+    .project h3 {
+      margin-top: 0;
     }
 
     a {
@@ -67,7 +74,6 @@
 <body>
 
 <header>
-  <img src="D:\certificate\photo.jpeg" alt="Jeyashree Photo">
   <h1>Jeyashree KS</h1>
   <p>Computer Science Engineering Student | AI & ML Enthusiast</p>
 </header>
@@ -75,9 +81,9 @@
 <section>
   <h2>About Me</h2>
   <p>
-    I am a Computer Science student passionate about Artificial Intelligence, 
-    Machine Learning, and Cybersecurity. I enjoy building practical projects 
-    that solve real-world problems and continuously improving my technical skills.
+    I am a Computer Science Engineering student passionate about Artificial Intelligence,
+    Machine Learning, and Cybersecurity. I enjoy building practical, data-driven solutions
+    and continuously improving my technical skills.
   </p>
 </section>
 
@@ -87,10 +93,21 @@
   <div class="project">
     <h3>Intrusion Detection System</h3>
     <p>
-      Developed a machine learning model using Python to detect malicious 
-      network traffic using the NSL-KDD dataset.
+      Developed a machine learning model using Python to detect malicious network traffic
+      using the NSL-KDD dataset. Applied data preprocessing, SMOTE for class balancing,
+      and implemented Decision Tree and Random Forest algorithms.
     </p>
-    <a href="https://github.com/yourusername/projectname" target="_blank">View on GitHub</a>
+    <a href="https://github.com/yourusername/projectname" target="_blank">View Project</a>
+  </div>
+
+  <div class="project">
+    <h3>Sentiment Analysis API</h3>
+    <p>
+      Built a RESTful API using Python and Flask to analyze text sentiment.
+      Integrated NLP techniques and pre-trained models for accurate classification.
+      Deployed for real-time text analysis.
+    </p>
+    <a href="https://github.com/yourusername/projectname2" target="_blank">View Project</a>
   </div>
 
 </section>
